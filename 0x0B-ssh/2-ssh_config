@@ -1,6 +1,4 @@
-# kill process killmenow
-
-exec { 'pkill':
-  command  => 'pkill killmenow',
-  provider => 'shell',
-}
+# ssh config file
+Host *
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
